@@ -12,87 +12,105 @@
   </head>
   <body>
     
-    <header>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-          <div class="container">
-            <a class="navbar-brand" href="#">
-                <img class="logo" src="/img/logo.png" alt="" width="30" height="24">
-              </a>
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="ms-auto navbar-nav mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Servicios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
-              </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeria</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
+    <div class="container-fluid">
+        <div class="row">
+            <header class="col-md-12">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                      <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img class="logo" src="/img/logo.png" alt="" width="30" height="24">
+                          </a>
+                          <a href="#">
+                            <span>SoftechUnity</span>
+                          </a>
+                        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavId">
+                            <ul class="ms-auto navbar-nav mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Productos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Contacto</a>
+                          </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeria</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" href="#">Action 1</a>
+                                        <a class="dropdown-item" href="#">Action 2</a>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                    </li>
-                </ul>
-            </div>
-      </div>
-    </nav>
-  </header>
-  <section>
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Acordeón artículo #1
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>Este es el cuerpo del acordeón del primer elemento.</strong> Se muestra de forma predeterminada, hasta que el complemento de colapso agrega las clases apropiadas que usamos para diseñar cada elemento. Estas clases controlan la apariencia general, así como la visualización y ocultación a través de transiciones CSS. Puedes modificar cualquiera de esto con CSS personalizado o sobrescribir nuestras variables predeterminadas. También vale la pena señalar que casi cualquier HTML puede ir dentro de <code>.accordion-body</code>, aunque la transición limita el desbordamiento.
-          </div>
+                  </div>
+                </nav>
+              </header>
         </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Acordeón artículo #2
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>Este es el cuerpo del acordeón del segundo elemento.</strong> Está oculto de manera predeterminada, hasta que el complemento de Collapse agregue las clases apropiadas que usamos para diseñar cada elemento. Estas clases controlan la apariencia general, así como la visualización y ocultación a través de transiciones CSS. Puedes modificar cualquiera de esto con CSS personalizado o sobrescribir nuestras variables predeterminadas. También vale la pena señalar que casi cualquier HTML puede ir dentro de <code>.accordion-body</code>, aunque la transición limita el desbordamiento.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Acordeón artículo #3
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>Este es el cuerpo del acordeón del tercer elemento.</strong> Está oculto de manera predeterminada, hasta que el complemento Collapse agregue las clases apropiadas que usamos para diseñar cada elemento. Estas clases controlan la apariencia general, así como la visualización y ocultación a través de transiciones CSS. Puedes modificar cualquiera de esto con CSS personalizado o sobrescribir nuestras variables predeterminadas. También vale la pena señalar que casi cualquier HTML puede ir dentro de <code>.accordion-body</code>, aunque la transición limita el desbordamiento.
-          </div>
-        </div>
-      </div>
     </div>
-
-  </section>
     
+  <section class="row">
+    <article class="col-md-7">
+        <h1>banner</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam et modi sed, soluta nihil provident. Culpa optio debitis ullam incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur voluptates fugit temporibus cum vel iste molestiae quisquam minima fugiat incidunt! Saepe voluptas eaque eveniet amet tenetur nemo ad doloribus, suscipit, iure nulla id. Amet ab exercitationem sunt, itaque quos expedita culpa nihil fuga, quod error non dignissimos incidunt perspiciatis assumenda.</p>
+        
+        <div class="row ms-1 me-1 mb-1 justify-content-center">
+            <div class="col-sm-5 col-md-3 col-lg me-1"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, aliquid?</p></div>
+            <div class="col-sm-5 col-md-3 col-lg me-1"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, aliquid?</p></div>
+            <div class="col-sm-5 col-md-3 col-lg me-1"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, aliquid?</p></div>
+            <div class="col-sm-5 col-md-12 col-lg me-1"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, aliquid?</p></div>
+        </div>
+    </article>
+    <aside class="col-md-5">
+        <h1>formulario</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, minima laudantium nobis nemo aliquid dolorum mollitia blanditiis vero? Rem illo alias recusandae officiis, molestiae accusamus excepturi adipisci consectetur veritatis nemo inventore explicabo ullam eveniet praesentium nesciunt, mollitia reiciendis vel cupiditate laudantium sint asperiores perferendis quas! Dolor nesciunt illo ad repellendus.</p>
+    </aside>
+</section>
+
+<section>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>espacio libre</h1>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="row d-flex justify-content-center">
+    <article class="col-md-12 ">
+      <div class="row ms-1 me-1 justify-content-center ">
+          <div class="col-sm-4 col-md-5 col-lg me-1 "><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, aliquid?</p></div>
+          <div class="col-sm-4 col-md-5 col-lg me-1"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, aliquid?</p></div>
+          <div class="col-sm-4 col-md-12 col-lg me-1"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, aliquid?</p></div>
+          
+      </div>
+  </article>
+  </div>
+</section>
+
+<section>
+  <footer class="row">
+    <div class="col-md-5">
+      <h1>contacto</h1>
+    </div>
+    <div class="col-md-7">
+      <h1>footer</h1>
+    </div>
+  </footer>
+</section>
+
+</div>
 
 
 
